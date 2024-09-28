@@ -3,7 +3,7 @@
 ## Descrição
 
 <p>
-  Este projeto foi desenvolvido durante o Bootcamp <strong>Blockchain Developer with Solidity</strong> da Binance em parceiria com a <a href="https://www.dio.me/"><strong>DIO<strong></a>.
+  Este projeto foi desenvolvido durante o Bootcamp <strong>Blockchain Developer with Solidity</strong> da <strong>Binance</strong> em parceria com a <a href="https://www.dio.me/"><strong>DIO<strong></a>.
   É um projeto simples de um <strong>Token ERC20</strong>, chamado <strong>DIOToken</strong> com um símbolo <strong>DIO</strong>.
 </p>
 
@@ -24,3 +24,53 @@ Antes de começar, você precisa ter o seguinte instalado em sua máquina:
 - [Truffle](https://www.trufflesuite.com/truffle) ou [Hardhat](https://hardhat.org/) (para testes e migrações locais)
 - [Ganache](https://www.trufflesuite.com/ganache) ou outro ambiente de blockchain local
 - [Solidity](https://docs.soliditylang.org/en/v0.8.0/) (v0.8.x ou superior)
+
+## Como Usar
+
+### É necessário clonar o projeto para a sua máquina
+
+## Utilize: 
+
+git clone <a>https://github.com/robellio/token-rede-ethereum.git</a> 
+
+## Instalando dependências
+
+<p>
+Se estiver utilizando o<strong>truffle<strong>, execute no terminal:
+<strong>npm install</strong>
+</p>
+
+## Compilando o Contrato
+
+<p>
+Se estiver utilizando o<strong>truffle<strong>, execute no terminal:
+<strong>truffle compile</strong>
+</p>
+
+<p>
+Caso esteja utilizando o<strong>Hardhat<strong>, execute no terminal:
+<strong>npx hardhat compile</strong>
+</p>
+
+## Implantando o Contrato 
+
+<p>
+Para implementar o contrato em uma <strong>Blockchain local</strong> Vamos utilizar o<strong>Ganache</strong>
+<p>
+
+<p>
+Se estiver utilizando o<strong>truffle<strong>, execute no terminal:
+<strong>truffle migrate</strong>
+</p>
+
+## Testando o Contrato
+
+<p>
+Se estiver utilizando o<strong>truffle<strong>, execute no terminal:
+<strong>truffle test</strong>
+</p>
+
+<p>
+Caso esteja utilizando o<strong>Hardhat<strong>, execute no terminal:
+<strong>npx hardhat test</strong>
+</p>
