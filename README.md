@@ -36,41 +36,41 @@ git clone <a>https://github.com/robellio/token-rede-ethereum.git</a>
 ## Instalando dependências
 
 <p>
-Se estiver utilizando o<strong>truffle<strong>, execute no terminal:
+Se estiver utilizando o <strong>truffle<strong>, execute no terminal:
 <strong>npm install</strong>
 </p>
 
 ## Compilando o Contrato
 
 <p>
-Se estiver utilizando o<strong>truffle<strong>, execute no terminal:
+Se estiver utilizando o <strong>truffle<strong>, execute no terminal:
 <strong>truffle compile</strong>
 </p>
 
 <p>
-Caso esteja utilizando o<strong>Hardhat<strong>, execute no terminal:
+Caso esteja utilizando o <strong>Hardhat<strong>, execute no terminal:
 <strong>npx hardhat compile</strong>
 </p>
 
 ## Implantando o Contrato 
 
 <p>
-Para implementar o contrato em uma <strong>Blockchain local</strong> Vamos utilizar o<strong>Ganache</strong>
+Para implementar o contrato em uma <strong>Blockchain local</strong> Vamos utilizar o <strong>Ganache</strong>
 <p>
 
 <p>
-Se estiver utilizando o<strong>truffle<strong>, execute no terminal:
-<strong>truffle migrate</strong>
+Se estiver utilizando o <strong>truffle<strong>, execute no terminal: 
+ <strong>truffle migrate</strong>
 </p>
 
 ## Testando o Contrato
 
 <p>
-Se estiver utilizando o<strong>truffle<strong>, execute no terminal:
-<strong>truffle test</strong>
+Se estiver utilizando o <strong>truffle<strong>, execute no terminal:
+ <strong>truffle test</strong>
 </p>
 
 <p>
-Caso esteja utilizando o<strong>Hardhat<strong>, execute no terminal:
-<strong>npx hardhat test</strong>
+Caso esteja utilizando o <strong>Hardhat<strong>, execute no terminal:
+ <strong>npx hardhat test</strong>
 </p>
